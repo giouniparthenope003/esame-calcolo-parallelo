@@ -7,30 +7,41 @@ Materiale di preparazione all'esame orale di **Calcolo Parallelo e Distribuito**
 
 ## Contenuto
 
-### Dispense di ripasso
+### Struttura
+
+```
+├── CLAUDE.md                   istruzioni di studio, piano e registro progressi
+├── README.md
+├── Formulario Complessità.pdf  T₁ e Tₚ di tutti gli algoritmi del corso
+├── Dispense/                   dispense di ripasso generate
+├── Lezioni/                    slide teoriche, LezXX_titolo.pdf (a/b se più file per lezione)
+├── Laboratori_OpenMP/          slide dei laboratori
+└── Esercizi_esame/             foto di tracce d'esame
+```
+
+### Dispense di ripasso (`Dispense/`)
 
 | File | Argomento |
 |---|---|
 | `01_Fondamenti.pdf` | Motivazioni del calcolo parallelo, T₁ e Tₚ, speed-up, efficienza, overhead, legge di Ware-Amdahl. Include le derivazioni passo passo con il riferimento alla slide, le verifiche numeriche delle discrepanze con le slide e un box "Come esporlo all'orale". |
 
-### Slide delle lezioni
+### Slide delle lezioni (`Lezioni/`)
 
 | Blocco | File |
 |---|---|
-| Introduzione e architetture | `Lez1_intro_motivazioni`, `Lez2_Flynn`, `Lez2_PD_introOpenMP`, `Lez3_intro_MULTICORE_openMP`, `Lez4_decomposizionePROB_multicore`, `Lez4_decPROB_multicore` |
-| Parametri di valutazione | `Lez6_intro_Efficienza`, `Lez7_Efficienza_WA`, `Lez10_IsoefficienzaScalabilita_contiSOMME1`, `Lez11_WAgeneralizzata_contiSOMME2`, `Lez11_Lez11_conti_sommaVETT_sommaNnumeri` |
-| Prodotto scalare e convoluzione | `Lez13_prodotto_scalare`, `Lez13_ProdottoScalare_parallelo`, `Lez16_convoluzione_1D` |
-| Ricerca e ordinamento (seminario) | `Lez15_seminario_Ricerca_Ordinamento_parallelo`, `17 Lezione_seminario_Ricerca_Ordinamento_parallelo` |
+| Introduzione e architetture | `Lez01_intro_motivazioni`, `Lez02a_Flynn`, `Lez02b_PD_introOpenMP`, `Lez03_intro_MULTICORE_openMP`, `Lez04a_decomposizionePROB_multicore`, `Lez04b_decPROB_multicore` |
+| Parametri di valutazione | `Lez06a/b_intro_Efficienza`, `Lez07a/b_Efficienza_WA`, `Lez10_IsoefficienzaScalabilita_contiSOMME1`, `Lez11a_conti_sommaVETT_sommaNnumeri`, `Lez11b_WAgeneralizzata_contiSOMME2` |
+| Prodotto scalare e convoluzione | `Lez13a_prodotto_scalare`, `Lez13b_ProdottoScalare_parallelo`, `Lez16_convoluzione_1D` |
+| Ricerca e ordinamento (seminari) | `Lez15b_seminario_Ricerca_Ordinamento_parallelo`, `Lez17_seminario_Ricerca_Ordinamento_parallelo` |
 | Matrici | `Lez18_MATRICI_fullPARALLEL`, `Lez19_confronti_strategieFULLparallel_2D` |
 | Prodotto matrice-vettore | `Lez21_MatVet_intro_conti1strategia`, `Lez23_MatVet_conti2strategia`, `Lez25_MatVet_conti3strategia`, `Lez27_MatVet_finale_MATLAB` |
-| Laboratori OpenMP | `Lez5_laboratorio1` … `Lez26_Laboratorio10_openMP_provaSCRITTA_tipo` |
+| Appunti | `Teoria_Calcolo_Parallelo` |
 
-Altro materiale:
-- `Formulario Complessità.pdf`: T₁ e Tₚ di tutti gli algoritmi del corso.
-- `Teoria Calcolo Parallelo (1).pdf`: appunti di teoria.
-- `Esercizi Esame Calcolo Parallelo/`: foto di tracce d'esame, da usare nelle simulazioni.
+### Laboratori (`Laboratori_OpenMP/`)
 
-Alcune lezioni compaiono in due versioni, ad esempio `Lez6_intro_Efficienza.pdf` e `Lez6_intro_Efficienza (1).pdf`.
+`Lez05_laboratorio1`, `Lez08_laboratorio2`, `Lez09_laboratorio3`, `Lez12_laboratorio4`, `Lez14_laboratorio5`, `Lez15a_Laboratorio6`, `Lez20_Laboratorio7`, `Lez22_Laboratorio8`, `Lez24_Laboratorio9`, `Lez26_Laboratorio10_openMP_provaSCRITTA_tipo`.
+
+Le versioni a/b di Lez06 e Lez07 hanno contenuto diverso; la versione "a" è quella usata per le dispense.
 
 ## Metodo di studio
 
